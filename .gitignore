@@ -25,3 +25,5 @@ train_pid.txt
 checkpoints*/
 *.ckpt
 *.data-00000-of-00001
+# Ignore evaluation output images and temporary figures
+eval_outputs*/
