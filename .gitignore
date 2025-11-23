@@ -1,0 +1,27 @@
+# Ignore the virtual environment
+tf-gpu-env/
+
+# Ignore pycache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore Data (too large for GitHub)
+data/DUTS-TE/
+data/DUTS-TR/
+# Keep splits folder if you want, but ignore the CSVs if you want users to regenerate them
+# data/splits/*.csv
+
+# Ignore logs and temp files
+*.log
+train_pid.txt
+
+# Keep your best checkpoint, ignore others if they are too big (>100MB files require git-lfs)
+# GitHub limit is 100MB per file. If your weights are <100MB, you can keep them.
+# If weights are >100MB, uncomment the line below:
+*.h5
+
+# Ignore checkpoint binary shards and TensorFlow checkpoint files
+checkpoints*/
+*.ckpt
+*.data-00000-of-00001
