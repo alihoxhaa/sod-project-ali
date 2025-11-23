@@ -93,17 +93,4 @@ Tips for improving results
 	- Tuning loss weighting (increase Dice weight) or using focal loss.
 	- Ensembling multiple runs or test-time augmentation (TTA).
 
-License / Attribution
----------------------
-This repository is a teaching/example project. Add a license file before
-publishing to GitHub (e.g. `MIT` or `Apache-2.0`) if you want to make the
-code public.
-
-Questions or next steps
------------------------
-If you'd like, I can:
-- Add a small `CONTRIBUTING.md` with exact commands to reproduce an
-	experiment (training + evaluation).
-- Add a `requirements.txt` file listing the versions used to run the
-	experiments.
 
